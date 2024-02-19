@@ -1,0 +1,68 @@
+1.accssess youtube shorts and change short
+	objective:
+		test shorts skip functionality
+	precoditions:
+		stable connection , chrome browser , youtube shorts
+	steps:
+		open the side menu
+
+		go to shorts tab
+		press down key 
+
+	expected results:
+		a short will open and then scroll to another short
+
+2.accssess youtube shorts comments
+	objective:
+		test shorts comments
+	precoditions:
+		stable connection , chrome browser , youtube shorts
+	steps:
+		open the side menu
+
+		go to shorts tab
+		press comments icon 
+
+	expected results:
+		a short will open and then the comments section will open
+
+3.Mute youtube short
+	objective:
+		test shorts mute button
+	precoditions:
+		stable connection , chrome browser , youtube shorts
+	steps:
+		open the side menu
+		go to shorts tab
+		press mute icon 
+
+	expected results:
+		a short will open and then the sound will be muted
+
+4.accssess youtube podcasts
+	objective:
+		go to the podcasts section using the menu button 
+	precoditions:
+		stable connection , chrome browser , Podcasts
+	steps:
+		open the side menu
+		go to Podcasts 
+
+	expected results:
+		YouTube Podcasts Section will open 
+
+4.Play Playlist From Youtube Music 
+	objective:
+		go to Youtube Music and play the first Playlist 
+	precoditions:
+		stable connection , chrome browser , Podcasts
+	steps:
+		open the side menu
+		go to youtube music 
+		play the first playlist
+
+	expected results:
+		the first playlist in YouTube Music Will start to play 
+
+
+
