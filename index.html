@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About Me</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        padding: 0;
+        animation: fadeIn 1s ease-out;
+        background: #f4f4f4;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      header {
+        background-color: #333;
+        color: #b86c2eb9;
+        padding: 10px;
+        text-align: center;
+        border-radius: 8px;
+        animation: slideInDown 1s ease-out;
+      }
+
+      nav {
+        text-align: center;
+        margin-top: 10px;
+        animation: slideInUp 1s ease-out;
+        background-color: #834040; /* reddish color */
+        border-radius: 8px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #fff;
+        margin: 0 15px;
+        font-size: 16px;
+        transition: color 0.3s ease-out;
+        display: inline-block;
+        padding: 10px;
+      }
+
+      nav a:hover {
+        color: #007bff;
+        background-color: #5c2e2e; /* slightly darker reddish color on hover */
+        border-radius: 4px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 28px;
+        color: #333;
+      }
+
+      section {
+        margin: 20px 0;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 15px;
+        border-radius: 8px;
+        animation: fadeInUp 1s ease-out;
+      }
+
+      h3 {
+        color: #333;
+      }
+
+      a {
+        text-decoration: none;
+        color: #007bff;
+        transition: color 0.3s ease-out;
+      }
+
+      a:hover {
+        color: #0056b3;
+      }
+
+      a:hover + .metadata {
+        display: block;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 5px;
+      }
+
+      button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        margin-bottom: 5px;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-out, transform 0.3s ease-out;
+        display: block;
+        margin: 0 auto; /* Center the button */
+      }
+
+      button:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        border-radius: 8px;
+        margin-top: 5px;
+        animation: slideInUp 1s ease-out;
+      }
+
+      /* Hover effect for GitHub link */
+      #github-link:hover {
+        text-decoration: underline;
+      }
+
+      /* Metadata styling */
+      .metadata {
+        font-style: italic;
+        color: #555;
+        font-size: 0.9em;
+        display: none;
+      }
+
+      /* Media Queries for responsive design */
+      @media only screen and (max-width: 600px) {
+        header {
+          font-size: 18px;
+        }
+
+        nav {
+          margin-top: 10px;
+          color: #555;
+        }
+
+        nav a {
+          color: azure;
+          font-size: 14px;
+          margin: 0 10px;
+        }
+
+        h1 {
+          font-size: 24px;
+        }
+
+        section {
+          font-size: 14px;
+        }
+
+        .metadata {
+          font-size: 0.8em;
+        }
+
+        button {
+          font-size: 14px;
+          padding: 8px 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <section>
+        <h1>Aram Mwais</h1>
+      </section>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">Courses</a>
+    </nav>
+    <section>
+      <h3>About me:</h3>
+    </section>
+    <section>Birthdate: 22/3/1997</section>
+    <section>
+      <a id="github-link" href="https://github.com/AramM97">Github Page</a>
+      <!-- Metadata for GitHub link -->
+      <p class="metadata">GitHub Profile: AramM97</p>
+    </section>
+    <section>
+      <p>My Hobbies: <br></p>
+      <ul>
+        <li>Music</li>
+        <li>Reading</li>
+        <li>Coding</li>
+      </ul>
+    </section>
+    <button>Click me! </button>
+
+    <footer>
+      <p>Contact me at <br> aram.mwais@gmail.com</p>
+    </footer>
+  </body>
+</html>
