@@ -7,7 +7,7 @@ from logic.mainPage import MainPage
 
 
 class test(unittest.TestCase):
-    HUB_URL = "http://192.168.1.32:4444/wd/hub"
+    HUB_URL = ""
 
     def setUp(self):
         self.edge_cap = webdriver.EdgeOptions()
