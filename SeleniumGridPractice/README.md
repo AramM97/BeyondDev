@@ -1,4 +1,4 @@
-Selenium Grid Tests for 365scores Website</title>
+Selenium Grid Tests for 365scores Website
 
 This repository contains Selenium Grid tests to automate interactions with the 365scores website. The tests
 are designed to run on the Windows 11 platform using the Chrome, Firefox, and Edge browsers.
